@@ -40,4 +40,6 @@ Para testar com Apache JMeter:
 ######### RELATÓRIO DE CONCLUSÃO #########
 
 O teste simulou as requisições simultâneas de saques e depósitos de R$100.00 na Conta 1 das tabelas.
+(7 usuários simultâneos em loop).
+<img width="422" height="232" alt="Config_usuarios" src="https://github.com/user-attachments/assets/186298b5-dbd9-4f25-80d6-1c1390195426" />
 
