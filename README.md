@@ -44,6 +44,6 @@ O teste simulou as requisições simultâneas de saques e depósitos de R$100.00
 <img width="422" height="232" alt="Config_usuarios" src="https://github.com/user-attachments/assets/186298b5-dbd9-4f25-80d6-1c1390195426" />
 
 Inicialmente, foi testado o cenário de concorrência sem bloqueios. A Conta 1 possuia saldo inicial de R$1000.00 e após o fim de do teste, o saldo alterou para R$1100.00, onde todas as requisições solicitadas (14 no total, sendo 7 depósitos e 7 saques) foram aceitas pelo banco. Matematicamente, o saldo final deveria ser R$1000.00, uma vez que a quantidade de depósitos e saques anulam-se entre si. Devido a diferença de R$100,00, fica claro que a condição de corrida (race condition) causou a perda de atualizações (lost updates). Como várias requisições leram o saldo original ao mesmo tempo, uma thread atropelou a outra e sobrescreveu o valor final, corrompendo a integridade dos dados no banco.
-<img width="955" height="286" alt="{1B1B8B9A-7CCF-4E3A-A776-9C7F4D3D7305}" src="https://github.com/user-attachments/assets/37ccb395-ac53-4902-877e-74b588a8a601" />
+<img width="959" height="285" alt="{0ACB65B0-D437-4EFA-8E56-A192A822AA36}" src="https://github.com/user-attachments/assets/4181b2cd-35f8-4641-a9e4-9dd5b4360e83" />
 
 
