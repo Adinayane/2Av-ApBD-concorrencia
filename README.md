@@ -2,18 +2,19 @@ Instituto Federal de Educação, Ciência e Tecnologia do Pará - Campus Belém
 
 Discente: Adinayane Souza
 
-Atividade Avaliativa para a disciplina de Aplicação de Banco de Dados - 06/06/2026
+### Atividade Avaliativa para a disciplina de Aplicação de Banco de Dados - 06/06/2026 ###
 
 Sobre o projeto:
- Aplicação em Spring Boot para teste prático do conceito de concorrência em banco de dados.
+
+- Aplicação em Spring Boot para teste prático do conceito de concorrência em banco de dados.
 
 Especificações:
  - Java 17
- - Spring Boot versão 3.5.14
- - H2 Database versão 2.3.232
+ - Spring Boot v.3.5.14
+ - H2 Database v.2.3.232
 
 Ferramentas usadas:
- - Apache JMeter versão 5.6.3
+ - Apache JMeter v.5.6.3
 
 Conteúdo essencial:
   - Pasta src com as classes e interfaces da aplicação
